@@ -1,9 +1,13 @@
 #include <iostream>
+//#include <string>
+using namespace std;
 
 int main(){
     int a,b,reste;
+    
+    string d = "Enter a number ";
 
-    std::cout << "Enter a number a: "; std::cin >> a;
+    cout << d << "d: " ; std::cin >> a;
     std::cout << "Enter a number b: "; std::cin >> b;
 
     reste = a % b;
